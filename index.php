@@ -7,7 +7,7 @@
     <!-- Favicon-->
     <link rel="shortcut icon" href="img/fav.png">
     <!-- Author Meta -->
-    <meta name="author" content="colorlib">
+    <meta name="author" content="">
     <!-- Meta Description -->
     <meta name="description" content="">
     <!-- Meta Keyword -->
@@ -284,9 +284,9 @@ return $db;
                             </div>
                             <div class="tab-pane fade" id="duduk" role="tabpanel" aria-labelledby="hotel-tab">
                                 <form class="form-wrap">
-                                    <input type="number" min="1" max="20" class="form-control" name="Dewasa" placeholder="Dewasa " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Dewasa '">
+                                    <input type="number" min="1" max="20" class="form-control" name="Jumlah" placeholder="Jumlah " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Jumlah Penumpang '">
 
-                                    <input type="number" min="1" max="20" class="form-control" name="Anak-anak" placeholder="Anak-anak " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Anak-anak '">
+                                    
                                     <section>
 
                                         <select class="form-select">
