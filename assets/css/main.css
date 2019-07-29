@@ -1786,7 +1786,7 @@ h6 {
 }
 
 .primary-checkbox input:checked+label {
-    background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+    background: url(../../img/elements/primary-check.png) no-repeat center center/cover;
     border: none;
 }
 
@@ -1824,7 +1824,7 @@ h6 {
 }
 
 .confirm-checkbox input:checked+label {
-    background: url(../img/elements/success-check.png) no-repeat center center/cover;
+    background: url(../../img/elements/success-check.png) no-repeat center center/cover;
     border: none;
 }
 
@@ -1867,7 +1867,7 @@ h6 {
 }
 
 .disabled-checkbox input:checked+label {
-    background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+    background: url(../../img/elements/disabled-check.png) no-repeat center center/cover;
     border: none;
 }
 
@@ -1905,7 +1905,7 @@ h6 {
 }
 
 .primary-radio input:checked+label {
-    background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+    background: url(../../img/elements/primary-radio.png) no-repeat center center/cover;
     border: none;
 }
 
@@ -1943,7 +1943,7 @@ h6 {
 }
 
 .confirm-radio input:checked+label {
-    background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+    background: url(../../img/elements/success-radio.png) no-repeat center center/cover;
     border: none;
 }
 
@@ -1986,7 +1986,7 @@ h6 {
 }
 
 .disabled-radio input:checked+label {
-    background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+    background: url(../../img/elements/disabled-radio.png) no-repeat center center/cover;
     border: none;
 }
 
@@ -2582,7 +2582,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------- Start Banner Area ------------*/
 
 .banner-area {
-    background: url(../img/cititrans.jpg) center;
+    background: url(../../img/cititrans.jpg) center;
     background-size: cover;
 }
 
@@ -2795,7 +2795,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------- start price Area ------------*/
 
 .price-area {
-    background: url(../img/price-bg.png);
+    background: url(../../img/price-bg.png);
     background-size: cover;
 }
 
@@ -3133,7 +3133,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about-banner {
-    background: url(../img/cititrans.jpg) center;
+    background: url(../../img/cititrans.jpg) center;
     background-size: cover;
 }
 
@@ -3401,7 +3401,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .list-wrap ul {
-    list-style-image: url("../img/insurence/bullet.png");
+    list-style-image: url("../../img/insurence/bullet.png");
 }
 
 .list-wrap li {
@@ -3429,7 +3429,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*============ Start Blog Home Styles  =============*/
 
 .blog-home-banner {
-    background: url(../img/blog/blog-home-banner.jpg) bottom;
+    background: url(../../img/blog/blog-home-banner.jpg) bottom;
     background-size: cover;
     padding: 130px 0px;
 }
