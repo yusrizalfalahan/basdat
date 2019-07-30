@@ -84,3 +84,26 @@ create table tiket(
 )Engine=InnoDB;
 
 
+-- untuk mengelola modul/data menu pada halaman administrator
+create table module(
+    module_id int primary key auto_increment,
+    module_name varchar(50) not null,
+    link varchar(50),
+    icon varchar(50),
+    active enum('Y','N') not null default 'Y'
+)Engine=InnoDB;
+
+-- ### INSERT DATA MODULE
+insert into module values
+(1, "beranda","?m=beranda","home","Y"),
+(2, "module","?m=module","clone","Y"),
+(3, "kota","?m=kota","map ","Y"),
+(4, "cabang","?m=cabang","map marker alternate","Y"),
+(5, "mobil","?m=mobil","bus","Y"),
+(6, "petugas","?m=petugas","user","Y"),
+(7, "penumpang","?m=penumpang","users","Y"),
+(8, "rute","?m=rute","location arrow","Y"),
+(9, "jadwal","?m=jadwal","calendar","Y"),
+(10, "pemberangkatan","?m=pemberangkatan","road","Y"),
+(11, "pembayaran","?m=pembayaran","dollar sign","Y"),
+(12, "tiket","?m=tiket","ticket alternate","Y");
